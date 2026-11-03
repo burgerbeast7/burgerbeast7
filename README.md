@@ -5,21 +5,7 @@
 
   <br><br>
 
-  <!-- Visitor Counter -->
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=burgerbeast7&icon=0&color=0" alt="Profile Views" />
-  </a>
 
-  <br><br>
-
-  <!-- Animated Typing Header -->
-  <a href="https://github.com/burgerbeast7">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=3670A0&center=true&vCenter=true&width=800&lines=Hi,+I'm+Kunal+Chauhan+👋;Software+Development+Engineer;Building+Agentic+AI+%26+Full-Stack+Apps;B.Tech+CSE+@+HPTU+Hamirpur;Turning+Coffee+into+Code+☕" alt="Typing SVG" />
-  </a>
-
-  <p align="center">
-    Passionate about architecting scalable systems, orchestrating multi-agent AI platforms, and crafting beautiful web applications. 
-  </p>
 
   <!-- Social Links -->
   <p align="center">
