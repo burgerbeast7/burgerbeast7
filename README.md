@@ -1,9 +1,7 @@
-<div align="center">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KarnailSingh87/KarnailSingh87/main/assets/header.png" alt="Karnail Singh — Full Stack Developer Banner" width="100%">
+</p>
 
-  <!-- Your Custom Pixel Art Avatar -->
-  <img src="pixel-profile.png" width="450" alt="Kunal Chauhan Pixel Art" />
-
-  <br><br>
 
 
 
