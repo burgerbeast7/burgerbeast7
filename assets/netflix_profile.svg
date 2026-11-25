@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+
+    <!-- Netflix Avatar Gradients -->
+    <linearGradient id="avatarRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E50914"/>
+      <stop offset="100%" stop-color="#831010"/>
+    </linearGradient>
+
+    <linearGradient id="avatarBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0080FF"/>
+      <stop offset="100%" stop-color="#003D80"/>
+    </linearGradient>
+
+    <linearGradient id="avatarGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#14532D"/>
+    </linearGradient>
+
+    <linearGradient id="avatarPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#581C87"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .whos-watching {
+      font-family: -apple-system, BlinkMacSystemFont, "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, sans-serif;
+      font-size: 34px;
+      font-weight: 500;
+      letter-spacing: -0.5px;
+      fill: #FFFFFF;
+      text-anchor: middle;
+    }
+    .profile-name {
+      font-family: -apple-system, BlinkMacSystemFont, "Netflix Sans", "Helvetica Neue", sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #808080;
+      text-anchor: middle;
+    }
+    .profile-sub {
+      font-family: -apple-system, BlinkMacSystemFont, "Netflix Sans", "Helvetica Neue", sans-serif;
+      font-size: 11.5px;
+      font-weight: 500;
+      fill: #525252;
+      text-anchor: middle;
+    }
+    .manage-btn {
+      font-family: -apple-system, BlinkMacSystemFont, "Netflix Sans", "Helvetica Neue", sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      fill: #808080;
+      text-anchor: middle;
+    }
+  </style>
+
+  <!-- Canvas -->
+  <rect x="0" y="0" width="920" height="300" rx="16" fill="url(#bgGrad)" stroke="#262626" stroke-width="1.2"/>
+
+  <!-- Screen Title -->
+  <text x="460" y="55" class="whos-watching">Who's watching?</text>
+
+  <!-- Profiles Container -->
+  <g transform="translate(130, 95)">
+    <!-- PROFILE 1: RECRUITER MODE -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="125" height="125" rx="8" fill="url(#avatarRed)" stroke="#FFFFFF" stroke-width="2"/>
+      <!-- Netflix Smiley Smile -->
+      <circle cx="45" cy="48" r="7" fill="#FFFFFF"/>
+      <circle cx="80" cy="48" r="7" fill="#FFFFFF"/>
+      <path d="M 40 76 Q 62.5 98 85 76" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+      <text x="62.5" y="148" class="profile-name" fill="#E5E5E5">Recruiter</text>
+      <text x="62.5" y="165" class="profile-sub">Hire Kunal</text>
+    </g>
+
+    <!-- PROFILE 2: TECH LEAD MODE -->
+    <g transform="translate(180, 0)">
+      <rect x="0" y="0" width="125" height="125" rx="8" fill="url(#avatarBlue)"/>
+      <circle cx="45" cy="48" r="7" fill="#FFFFFF"/>
+      <circle cx="80" cy="48" r="7" fill="#FFFFFF"/>
+      <path d="M 40 78 Q 62.5 95 85 78" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+      <text x="62.5" y="148" class="profile-name">Tech Lead</text>
+      <text x="62.5" y="165" class="profile-sub">Inspect Go &amp; APIs</text>
+    </g>
+
+    <!-- PROFILE 3: AI RESEARCHER -->
+    <g transform="translate(360, 0)">
+      <rect x="0" y="0" width="125" height="125" rx="8" fill="url(#avatarGreen)"/>
+      <circle cx="45" cy="48" r="7" fill="#FFFFFF"/>
+      <circle cx="80" cy="48" r="7" fill="#FFFFFF"/>
+      <path d="M 40 76 Q 62.5 98 85 76" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+      <text x="62.5" y="148" class="profile-name">AI Explorer</text>
+      <text x="62.5" y="165" class="profile-sub">Agent Swarms &amp; RAG</text>
+    </g>
+
+    <!-- PROFILE 4: COLLABORATOR / ADD -->
+    <g transform="translate(540, 0)">
+      <rect x="0" y="0" width="125" height="125" rx="8" fill="#1f1f1f" stroke="#404040" stroke-width="2" stroke-dasharray="6,4"/>
+      <circle cx="62.5" cy="62.5" r="26" fill="none" stroke="#808080" stroke-width="3"/>
+      <line x1="62.5" y1="46" x2="62.5" y2="79" stroke="#808080" stroke-width="3" stroke-linecap="round"/>
+      <line x1="46" y1="62.5" x2="79" y2="62.5" stroke="#808080" stroke-width="3" stroke-linecap="round"/>
+      <text x="62.5" y="148" class="profile-name">Co-Founder</text>
+      <text x="62.5" y="165" class="profile-sub">Start Project</text>
+    </g>
+  </g>
+
+  <!-- Bottom Manage Profiles Button -->
+  <g transform="translate(460, 275)">
+    <rect x="-85" y="-14" width="170" height="28" fill="none" stroke="#525252" stroke-width="1.2"/>
+    <text x="0" y="4" class="manage-btn">MANAGE PROFILES</text>
+  </g>
+</svg>
