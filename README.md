@@ -319,8 +319,9 @@ Season 4: The Season Finale (2025 - 2026) [CURRENTLY AIRING]
 
   <br>
   <p align="center">
+    <img src="assets/logo_kc.png" width="70" alt="KC Logo" /><br>
     <small style="color: #737373;">
-      NETFLIX and the N Logo are trademarks of Netflix, Inc. This profile is a creative tribute portfolio.<br>
+      NETFLIX and the N Logo are trademarks of Netflix, Inc. This profile is a creative developer tribute portfolio.<br>
       © 2026 Kunal Chauhan (@burgerbeast7) • Palampur, Himachal Pradesh.
     </small>
   </p>
