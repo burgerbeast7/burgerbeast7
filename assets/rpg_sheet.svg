@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#141c2e"/>
+      <stop offset="100%" stop-color="#0a0c14"/>
+    </linearGradient>
+    <linearGradient id="neonBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#39ff14"/>
+    </linearGradient>
+    <linearGradient id="alertBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="100%" stop-color="#ff5400"/>
+    </linearGradient>
+    <linearGradient id="goldBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd60a"/>
+      <stop offset="100%" stop-color="#ff9e00"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .header-title {
+      font-family: 'Courier New', 'Fira Code', monospace;
+      font-size: 16px;
+      font-weight: 900;
+      fill: #ffd60a;
+      letter-spacing: 2px;
+    }
+    .stat-label {
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      font-weight: bold;
+      fill: #e2e8f0;
+    }
+    .stat-val {
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      font-weight: bold;
+      fill: #00f5ff;
+    }
+    .badge-box {
+      font-family: 'Courier New', monospace;
+      font-size: 11.5px;
+      fill: #cbd5e1;
+    }
+    .subtext {
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      fill: #94a3b8;
+    }
+  </style>
+
+  <!-- Frame -->
+  <rect x="5" y="5" width="840" height="330" rx="14" fill="url(#cardBg)" stroke="#334155" stroke-width="2" />
+  
+  <!-- Header Banner -->
+  <rect x="5" y="5" width="840" height="38" rx="14" fill="#1e293b" />
+  <rect x="5" y="33" width="840" height="10" fill="#1e293b" />
+  <line x1="5" y1="43" x2="845" y2="43" stroke="#475569" stroke-width="1.5" />
+  
+  <text x="30" y="29" class="header-title">⚔️ CHARACTER SHEET // PLAYER: KUNAL_CHAUHAN [LVL 22]</text>
+  <text x="815" y="28" text-anchor="end" font-family="'Courier New', monospace" font-size="12" fill="#39ff14" font-weight="bold">CLASS: AGENTIC MAGE</text>
+
+  <!-- LEFT COLUMN: STATS -->
+  <g transform="translate(30, 65)">
+    <text x="0" y="15" class="header-title" fill="#00f5ff">⚡ CORE ATTRIBUTES</text>
+
+    <!-- Stat 1: Architecture & API Crafting -->
+    <text x="0" y="45" class="stat-label">Full-Stack &amp; API Architecture</text>
+    <rect x="0" y="55" width="360" height="12" rx="4" fill="#0f172a" stroke="#334155" />
+    <rect x="1" y="56" width="342" height="10" rx="3" fill="url(#neonBar)" />
+    <text x="375" y="65" class="stat-val">95%</text>
+
+    <!-- Stat 2: Autonomous AI & LLMs -->
+    <text x="0" y="95" class="stat-label">Agentic AI &amp; LangGraph Alchemy</text>
+    <rect x="0" y="105" width="360" height="12" rx="4" fill="#0f172a" stroke="#334155" />
+    <rect x="1" y="106" width="335" height="10" rx="3" fill="url(#neonBar)" />
+    <text x="375" y="115" class="stat-val">93%</text>
+
+    <!-- Stat 3: Systems & Concurrency (Go) -->
+    <text x="0" y="145" class="stat-label">Concurrency &amp; High-Perf (Go)</text>
+    <rect x="0" y="155" width="360" height="12" rx="4" fill="#0f172a" stroke="#334155" />
+    <rect x="1" y="156" width="310" height="10" rx="3" fill="url(#goldBar)" />
+    <text x="375" y="165" class="stat-val" fill="#ffd60a">86%</text>
+
+    <!-- Stat 4: Caffeine Dependency -->
+    <text x="0" y="195" class="stat-label">Caffeine Intake &amp; Drive</text>
+    <rect x="0" y="205" width="360" height="12" rx="4" fill="#0f172a" stroke="#334155" />
+    <rect x="1" y="206" width="356" height="10" rx="3" fill="url(#neonBar)" />
+    <text x="375" y="215" class="stat-val">99%</text>
+
+    <!-- Stat 5: Sleep Schedule (Critical) -->
+    <text x="0" y="245" class="stat-label">Sleep Schedule Regularity</text>
+    <rect x="0" y="255" width="360" height="12" rx="4" fill="#0f172a" stroke="#334155" />
+    <rect x="1" y="256" width="55" height="10" rx="3" fill="url(#alertBar)" />
+    <text x="375" y="265" class="stat-val" fill="#ff007f">15% (CRITICAL)</text>
+  </g>
+
+  <!-- VERTICAL DIVIDER -->
+  <line x1="450" y1="55" x2="450" y2="320" stroke="#334155" stroke-width="1.5" stroke-dasharray="4,4" />
+
+  <!-- RIGHT COLUMN: EQUIPPED INVENTORY & PASSIVES -->
+  <g transform="translate(480, 65)">
+    <text x="0" y="15" class="header-title" fill="#ff007f">🎒 EQUIPPED GEAR</text>
+
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="335" height="32" rx="6" fill="#0f172a" stroke="#1e293b" />
+      <text x="12" y="21" class="badge-box">🗡️ <tspan fill="#e2e8f0" font-weight="bold">Main Weapon:</tspan> FastAPI + TypeScript + React</text>
+    </g>
+
+    <g transform="translate(0, 70)">
+      <rect x="0" y="0" width="335" height="32" rx="6" fill="#0f172a" stroke="#1e293b" />
+      <text x="12" y="21" class="badge-box">🛡️ <tspan fill="#e2e8f0" font-weight="bold">Shield:</tspan> Docker + Strict Type Checks</text>
+    </g>
+
+    <g transform="translate(0, 110)">
+      <rect x="0" y="0" width="335" height="32" rx="6" fill="#0f172a" stroke="#1e293b" />
+      <text x="12" y="21" class="badge-box">💍 <tspan fill="#e2e8f0" font-weight="bold">Ring:</tspan> Band of 2 AM Focus (+40 Coding Buff)</text>
+    </g>
+
+    <text x="0" y="172" class="header-title" fill="#39ff14">🔮 PASSIVE TRAITS</text>
+
+    <text x="0" y="196" class="subtext">
+      <tspan fill="#39ff14">▶ [Agent Whisperer]:</tspan> Orchestrates swarms of LLMs
+    </text>
+    <text x="0" y="218" class="subtext">
+      <tspan fill="#00f5ff">▶ [Bug Exorcist]:</tspan> Hunts stubborn edge-cases till dawn
+    </text>
+    <text x="0" y="240" class="subtext">
+      <tspan fill="#ffd60a">▶ [Full-Stack Chameleon]:</tspan> Seamlessly bridges UI &amp; Core
+    </text>
+  </g>
+</svg>

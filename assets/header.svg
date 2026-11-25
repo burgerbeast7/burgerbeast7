@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#101826"/>
+      <stop offset="100%" stop-color="#070a10"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#bd00ff"/>
+      <stop offset="100%" stop-color="#ff007f"/>
+    </linearGradient>
+    <linearGradient id="burgerCheese" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffbe0b"/>
+      <stop offset="100%" stop-color="#fb5607"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <pattern id="pixelGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes glitch {
+      0% { transform: translate(0); }
+      20% { transform: translate(-2px, 1px); }
+      40% { transform: translate(-1px, -1px); }
+      60% { transform: translate(2px, 1px); }
+      80% { transform: translate(1px, -2px); }
+      100% { transform: translate(0); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 1; filter: drop-shadow(0 0 8px #00f5ff); }
+    }
+    .title-text {
+      font-family: 'Courier New', 'Fira Code', monospace;
+      font-size: 26px;
+      font-weight: 900;
+      fill: #00f5ff;
+      letter-spacing: 2px;
+    }
+    .tagline-text {
+      font-family: 'Courier New', 'Fira Code', monospace;
+      font-size: 15px;
+      font-weight: 700;
+      fill: #ff007f;
+      letter-spacing: 1px;
+    }
+    .prompt-text {
+      font-family: 'Courier New', 'Fira Code', monospace;
+      font-size: 13.5px;
+      fill: #a0aec0;
+    }
+    .accent-cyan { fill: #00f5ff; }
+    .accent-green { fill: #39ff14; }
+    .accent-yellow { fill: #ffd60a; }
+    .accent-pink { fill: #ff007f; }
+    .accent-purple { fill: #bd00ff; }
+    .cursor {
+      animation: blink 0.9s infinite;
+      fill: #00f5ff;
+    }
+    .status-badge {
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
+      font-weight: bold;
+    }
+  </style>
+
+  <!-- Outer Card Frame -->
+  <rect x="5" y="5" width="890" height="350" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="2.5" />
+  <rect x="5" y="5" width="890" height="350" rx="16" fill="url(#pixelGrid)" />
+
+  <!-- Terminal Header Bar -->
+  <path d="M 5 21 C 5 12 12 5 21 5 L 879 5 C 888 5 895 12 895 21 L 895 44 L 5 44 Z" fill="#0d131f" stroke="url(#borderGrad)" stroke-width="1.5" />
+  
+  <!-- Terminal Buttons -->
+  <circle cx="28" cy="24" r="6.5" fill="#ff5f56" />
+  <circle cx="48" cy="24" r="6.5" fill="#ffbd2e" />
+  <circle cx="68" cy="24" r="6.5" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="450" y="29" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#718096" font-weight="bold" letter-spacing="1.5">
+    BURGERBEAST_OS // v2.6.4 (RETRO TERMINAL) - CONNECTED
+  </text>
+  
+  <rect x="765" y="15" width="112" height="19" rx="4" fill="#1a202c" stroke="#39ff14" stroke-width="1" />
+  <circle cx="777" cy="24.5" r="3.5" fill="#39ff14" class="cursor" />
+  <text x="825" y="28.5" text-anchor="middle" class="status-badge" fill="#39ff14">SYS: ACTIVE</text>
+
+  <!-- Left: 8-BIT PIXEL ART BURGER AVATAR -->
+  <g transform="translate(40, 75)">
+    <!-- Retro Pixel Frame -->
+    <rect x="-10" y="-10" width="160" height="160" rx="12" fill="#050811" stroke="#00f5ff" stroke-width="1.5" stroke-dasharray="6,4" />
+    
+    <!-- Pixel Avatar: The "Burger Beast" Pixel Art -->
+    <!-- Top Bun -->
+    <rect x="30" y="15" width="80" height="10" fill="#e09f3e" />
+    <rect x="20" y="25" width="100" height="15" fill="#e09f3e" />
+    <rect x="15" y="40" width="110" height="10" fill="#f4a261" />
+    <!-- Sesame Seeds -->
+    <rect x="35" y="22" width="6" height="4" fill="#fff3b0" />
+    <rect x="65" y="18" width="6" height="4" fill="#fff3b0" />
+    <rect x="95" y="25" width="6" height="4" fill="#fff3b0" />
+    <rect x="45" y="32" width="6" height="4" fill="#fff3b0" />
+    <rect x="80" y="33" width="6" height="4" fill="#fff3b0" />
+
+    <!-- Cute 8-bit Sunglasses / Eyes on Bun -->
+    <rect x="35" y="36" width="30" height="8" fill="#111" />
+    <rect x="75" y="36" width="30" height="8" fill="#111" />
+    <rect x="65" y="38" width="10" height="4" fill="#111" />
+    <rect x="38" y="38" width="8" height="4" fill="#00f5ff" />
+    <rect x="78" y="38" width="8" height="4" fill="#00f5ff" />
+
+    <!-- Lettuce Wave (Pixel Green) -->
+    <rect x="10" y="52" width="120" height="8" fill="#52b788" />
+    <rect x="15" y="60" width="15" height="5" fill="#74c69d" />
+    <rect x="45" y="60" width="20" height="5" fill="#74c69d" />
+    <rect x="80" y="60" width="15" height="5" fill="#74c69d" />
+    <rect x="110" y="60" width="15" height="5" fill="#74c69d" />
+
+    <!-- Melted Cheese (Golden Yellow) -->
+    <polygon points="12,65 128,65 118,78 95,65 75,80 50,65 30,78 12,65" fill="url(#burgerCheese)" />
+
+    <!-- Patty (Juicy Dark Charcoal Brown) -->
+    <rect x="15" y="75" width="110" height="18" fill="#582f0e" />
+    <rect x="25" y="80" width="90" height="6" fill="#7f4f24" />
+
+    <!-- Bottom Bun -->
+    <rect x="20" y="94" width="100" height="15" fill="#e09f3e" />
+    <rect x="30" y="108" width="80" height="8" fill="#c67d1c" />
+
+    <!-- Cyber Label Below Avatar -->
+    <text x="70" y="140" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" font-weight="900" fill="#00f5ff" letter-spacing="1">
+      &lt;BURGER_BEAST_7/&gt;
+    </text>
+  </g>
+
+  <!-- Right: Terminal Screen Content -->
+  <g transform="translate(230, 75)">
+    <!-- Main Header -->
+    <text x="0" y="24" class="title-text" filter="url(#neonGlow)">
+      KUNAL CHAUHAN
+    </text>
+    <text x="0" y="48" class="tagline-text">
+      [BUILDER • AI AGENT WIZARD • FULL-STACK EXPLORER]
+    </text>
+
+    <!-- Interactive Terminal Prompts -->
+    <text x="0" y="84" class="prompt-text">
+      <tspan class="accent-green">kunal@system</tspan><tspan fill="#718096">:</tspan><tspan class="accent-cyan">~/bio</tspan><tspan class="accent-pink">$</tspan> cat identity.json
+    </text>
+    
+    <text x="0" y="110" class="prompt-text">
+      { <tspan class="accent-yellow">"role"</tspan>: <tspan class="accent-green">"Full-Stack &amp; Agentic AI Developer"</tspan>, <tspan class="accent-yellow">"level"</tspan>: <tspan class="accent-pink">"Final Year CSE @ HPTU"</tspan> }
+    </text>
+
+    <text x="0" y="136" class="prompt-text">
+      <tspan class="accent-green">kunal@system</tspan><tspan fill="#718096">:</tspan><tspan class="accent-cyan">~/gear</tspan><tspan class="accent-pink">$</tspan> ./display_passions.sh
+    </text>
+
+    <text x="0" y="162" class="prompt-text">
+      &gt; Autonomous AI Swarms &amp; LangGraph <tspan class="accent-purple">[READY]</tspan>
+    </text>
+    <text x="0" y="186" class="prompt-text">
+      &gt; High-Speed Backend APIs (FastAPI + Go) <tspan class="accent-cyan">[LOADED]</tspan>
+    </text>
+    <text x="0" y="210" class="prompt-text">
+      &gt; Modern Slick Frontends (React / Next.js) <tspan class="accent-green">[PIXEL-PERFECT]</tspan>
+    </text>
+
+    <text x="0" y="238" class="prompt-text">
+      <tspan class="accent-green">kunal@system</tspan><tspan fill="#718096">:</tspan><tspan class="accent-cyan">~/workspace</tspan><tspan class="accent-pink">$</tspan> run --creative-mode --no-boring-ai
+    </text>
+    <text x="0" y="260" class="prompt-text">
+      <tspan fill="#39ff14">&gt;&gt; Ready to turn coffee into pure code wizardry.</tspan>
+      <tspan class="cursor">_</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Cyber Ticker / Stats Bar -->
+  <g transform="translate(40, 315)">
+    <rect x="0" y="0" width="820" height="28" rx="6" fill="#080c14" stroke="#2d3748" stroke-width="1" />
+    <text x="15" y="18" font-family="'Courier New', monospace" font-size="11.5" fill="#a0aec0">
+      <tspan fill="#00f5ff">⚡ XP:</tspan> 9,999+ Commits  |  
+      <tspan fill="#39ff14">🔋 FUEL:</tspan> Hot Espresso  |  
+      <tspan fill="#ffd60a">📍 SPAWN POINT:</tspan> Palampur, India  |  
+      <tspan fill="#ff007f">❤️ LOVES:</tspan> Breaking &amp; Fixing Stuff
+    </text>
+    <text x="805" y="18" text-anchor="end" font-family="'Courier New', monospace" font-size="11.5" fill="#bd00ff" font-weight="bold">
+      [PRESS ↓ SCROLL FOR QUEST]
+    </text>
+  </g>
+</svg>
