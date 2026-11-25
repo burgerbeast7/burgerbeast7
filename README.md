@@ -3,19 +3,36 @@
   <!-- ============================================== -->
   <!-- 🍿 NETFLIX ORIGINAL BILLBOARD HERO             -->
   <!-- ============================================== -->
-  <img src="assets/netflix_hero.svg" width="100%" alt="Netflix Original — Kunal Chauhan" />
+  <a href="https://kunalchauhan-dev.vercel.app/" target="_blank">
+    <img src="assets/netflix_hero.svg" width="100%" alt="Netflix Original — Kunal Chauhan | Click to stream live portfolio" />
+  </a>
 
   <br><br>
 
+  <!-- Netflix Billboard Action Buttons -->
+  <p align="center">
+    <a href="https://kunalchauhan-dev.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/%E2%96%B6%20PLAY-Visit%20Official%20Portfolio-FFFFFF?style=for-the-badge&logo=safari&logoColor=black" alt="Play Live Portfolio" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="#-top-10-in-tech-today-global-trending-catalog">
+      <img src="https://img.shields.io/badge/%E2%84%B9%EF%B8%8F%20MORE%20INFO-Browse%20Catalog-333333?style=for-the-badge" alt="Browse Catalog" />
+    </a>
+  </p>
+
   <!-- Netflix Dynamic Stream Tagline -->
-  <a href="https://github.com/burgerbeast7">
-    <img src="https://readme-typing-svg.demolab.com?font=Helvetica+Neue,Arial,sans-serif&weight=700&size=20&duration=3000&pause=1100&color=E50914&center=true&vCenter=true&width=800&lines=%E2%96%B6+NOW+STREAMING%3A+Kunal+Chauhan+%E2%80%A2+99%25+Match+%E2%80%A2+Season+4+Finale;Genre%3A+Agentic+AI+Swarms+%E2%80%A2+High-Throughput+Go+Systems+%E2%80%A2+React;Starring+in+Enterprise-Grade+Projects+%E2%80%A2+B.Tech+CSE+%40+HPTU;No+Subscription+Required.+Press+%5BEXPLORE%5D+to+binge+repositories." alt="Netflix Stream Status" />
+  <a href="https://kunalchauhan-dev.vercel.app/" target="_blank">
+    <img src="https://readme-typing-svg.demolab.com?font=Helvetica+Neue,Arial,sans-serif&weight=700&size=20&duration=3000&pause=1100&color=E50914&center=true&vCenter=true&width=800&lines=%E2%96%B6+NOW+STREAMING%3A+kunalchauhan-dev.vercel.app;Live+Portfolio%3A+Software+Engineer+%C2%B7+Full-Stack+%C2%B7+AI%2FML;Starring+in+Enterprise-Grade+Projects+%E2%80%A2+B.Tech+CSE+%40+HPTU;Click+%5BPLAY%5D+to+stream+live+interactive+portfolio+demos." alt="Netflix Stream Status" />
   </a>
 
   <br><br>
 
   <!-- Netflix Badges Bar -->
   <p align="center">
+    <a href="https://kunalchauhan-dev.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/OFFICIAL%20SITE-Live%20Portfolio-E50914?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Portfolio" />
+    </a>
+    &nbsp;
     <a href="https://komarev.com/ghpvc/?username=burgerbeast7">
       <img src="https://komarev.com/ghpvc/?username=burgerbeast7&label=%F0%9F%91%81%EF%B8%8F%20TOTAL%20STREAMS&color=E50914&style=for-the-badge" alt="Total Streams" />
     </a>
@@ -31,8 +48,6 @@
     <a href="https://instagram.com/Kunal.3.6.3.4" target="_blank">
       <img src="https://img.shields.io/badge/BEHIND%20THE%20SCENES-Instagram-E50914?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
-    &nbsp;
-    <img src="https://img.shields.io/badge/PRODUCTION%20STUDIO-Palampur%20%E2%80%A2%20India-141414?style=for-the-badge&logo=netflix&logoColor=E50914" alt="Studio Location" />
   </p>
 
 </div>
@@ -53,7 +68,7 @@
 <div align="center">
   <p>
     <b>SELECT A PROFILE TO BEGIN STREAMING:</b><br>
-    🔴 <b>Recruiter Profile:</b> Fast-track to the <a href="#-top-10-in-tech-today-global-trending-catalog">Top 10 Flagship Series</a> and hire Kunal.<br>
+    🔴 <b>Recruiter Profile:</b> Stream interactive demos &amp; case studies on the <a href="https://kunalchauhan-dev.vercel.app/" target="_blank"><b>Official Portfolio (kunalchauhan-dev.vercel.app)</b></a>.<br>
     🔵 <b>Tech Lead Profile:</b> Inspect microsecond <a href="https://github.com/burgerbeast7/ATLAS">Golang Concurrency</a> and API architecture.<br>
     🟢 <b>AI Explorer Profile:</b> Binge <a href="https://github.com/burgerbeast7/careerpilot-ai">Agentic Multi-Agent LangGraph Swarms</a>.<br>
     ⚪ <b>Co-Producer Profile:</b> Jump to the <a href="#-ready-to-watch-start-your-collaboration">Contact Section</a> to greenlight a project.
@@ -282,15 +297,15 @@ Season 4: The Season Finale (2025 - 2026) [CURRENTLY STREAMING]
 </details>
 
 <details>
-  <summary><b>▶ How much does it cost to subscribe / hire Kunal?</b></summary>
+  <summary><b>▶ Where can I watch his live portfolio and projects in action?</b></summary>
   <br>
-  <p>Zero subscription fees. Available for high-impact full-time software engineering roles, internships, and collaborative builds with teams pushing the boundaries of AI and scalable systems.</p>
+  <p>Stream interactive live deployments, full-stack case studies, and responsive design systems directly on his official portfolio: <b><a href="https://kunalchauhan-dev.vercel.app/" target="_blank">kunalchauhan-dev.vercel.app</a></b>! All underlying production code is open-sourced across the repositories in this catalog.</p>
 </details>
 
 <details>
-  <summary><b>▶ Where can I watch his code in action?</b></summary>
+  <summary><b>▶ How much does it cost to subscribe / hire Kunal?</b></summary>
   <br>
-  <p>Right here on GitHub! Every repository in the catalog features clean modular architecture, full documentation, and reproducible code.</p>
+  <p>Zero subscription fees. Available for high-impact full-time software engineering roles, internships, and collaborative builds with teams pushing the boundaries of AI and scalable systems.</p>
 </details>
 
 <details>
@@ -313,9 +328,13 @@ Season 4: The Season Finale (2025 - 2026) [CURRENTLY STREAMING]
 <div align="center">
 
   <h3>Ready to start streaming?</h3>
-  <p>Enter your inquiry to greenlight a collaboration, offer a role, or discuss next-generation architecture.</p>
+  <p>Stream his live interactive portfolio or enter an inquiry to greenlight a collaboration.</p>
 
   <p align="center">
+    <a href="https://kunalchauhan-dev.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/STREAM%20LIVE%20PORTFOLIO-kunalchauhan--dev.vercel.app-E50914?style=for-the-badge&logo=vercel&logoColor=white" alt="Stream Live Portfolio" />
+    </a>
+    &nbsp;&nbsp;
     <a href="https://linkedin.com/in/kunal-chauhan-7a7539287" target="_blank">
       <img src="https://img.shields.io/badge/START%20ON%20LINKEDIN-E50914?style=for-the-badge&logo=linkedin&logoColor=white" alt="Start on LinkedIn" />
     </a>
@@ -331,8 +350,11 @@ Season 4: The Season Finale (2025 - 2026) [CURRENTLY STREAMING]
 
   <br>
   <p align="center">
-    <img src="assets/logo_kc.png" width="75" alt="KC Logo" /><br>
+    <a href="https://kunalchauhan-dev.vercel.app/" target="_blank">
+      <img src="assets/logo_kc.png" width="80" alt="KC Logo" />
+    </a><br>
     <small style="color: #737373;">
+      <a href="https://kunalchauhan-dev.vercel.app/" target="_blank" style="color: #E50914; font-weight: bold; text-decoration: none;">kunalchauhan-dev.vercel.app</a><br>
       NETFLIX and the N Logo are trademarks of Netflix, Inc. This profile is a creative developer tribute portfolio.<br>
       © 2026 Kunal Chauhan (@burgerbeast7) • Palampur, Himachal Pradesh.
     </small>
